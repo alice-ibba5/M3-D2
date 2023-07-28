@@ -1,0 +1,152 @@
+nav {
+    display: flex;
+    background-color: bisque;
+    border-radius: 50px;
+    margin: 5px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    position: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 30px;
+}
+
+.buttonNav {
+    font-family: 'Montserrat', sans-serif;
+    background-color: burlywood;
+    border-radius: 50px;
+    border: 1px solid burlywood;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttonNav.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profilePic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.card {
+    
+    width: 300px;
+    height: 400px;
+}
+
+main {
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cardImg {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.cardWritings {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    font-size: smaller;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 0;
+}
+
+.cardWritings button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: burlywood;
+    border-radius: 50px;
+    border: 1px solid burlywood;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.cardWritings span:nth-last-child(2) {
+    align-self: flex-end;
+    margin-right: 10px;
+    justify-items: center;
+    margin-right: 50px;
+    display: flex;
+}
+
+.cardWritings div span:nth-last-child(2) {
+    font-weight: bold;
+}
+
+.dueScritte {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.conteiner {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.scritteArticolo {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+
+.cointeinerArticle {
+    display: flex;
+    margin: 200px 150px 100px 150px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 400px;
+    flex-wrap: wrap-reverse;
+    flex-basis: 50%;
+}
+
+.cointeinerArticle img {
+    width: 400px;
+    border-radius: 20px;   
+}
+
+.scritteArticolo span:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
